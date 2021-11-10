@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/img1.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <!-- scroll-top-btn -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-double-up"></i></button>
+
+    <!-- navigation -->
+    <nav class="header">
+        <div class="nav_wrapper">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#s3">Skills</a></li>
+                <li><a href="#teams">Teams</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- section_1 -->
+    <section class="s1" id="home"> 
+		<div class="main-container">
+			
+			<div class="intro-wrapper">
+				<div class="nav-wrapper">
+                    <div class="text-3"><span class="typing"></span></div>
+				</div>
+				<div class="left-column">
+					<img id="profile_pic" src="images/istockphoto-1193451471-612x612.jpg">
+				</div>
+                <div class="right-column">
+					<div id="preview-shadow">
+						<div id="preview">
+							<div id="corner-tl" class="corner"></div>
+							<div id="corner-tr" class="corner"></div>
+							<h3>Who I am</h3>
+							<p>I am a freelancer  website designer and developer from Batumi Georgia.</p>
+							<div id="corner-br" class="corner"></div>
+							<div id="corner-bl" class="corner"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+    <!-- section_2 -->
+    <section class="s2" id="about">
+        <div class="about">
+            <h4 class="title" >More about me</h4>
+            <div class="about-content">
+                <div class="column-left">
+                    <img src="images/img1.jpg" alt="">
+                </div>
+
+                <div class="column-right">
+                    <div class="text"> I'm Mukhran and I'm a <span class="typ-2"></span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque, sit laboriosam voluptatem nisi delectus. Facere explicabo hic minus accusamus alias fuga nihil dolorum quae. Explicabo illo unde, odio consequatur ipsam possimus veritatis, placeat, ab molestiae velit inventore exercitationem consequuntur blanditiis omnis beatae. Dolor iste excepturi ratione soluta quas culpa voluptatum repudiandae harum non.</p>
+                        <a href="#">Download CV</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- start section_3 -->
+    <section class="s3" id="s3">
+        <div class="about">
+            <h4 class="title">My Skills</h4>
+            <div class="skills-content">
+                <div class="column-left">
+                    <div class="text"> <span class="typ-3"></span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ratione error est recusandae consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi. Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem illum. Ad delectus natus aut hic explicabo minus quod.</p>
+                    <a href="#">Read more</a>
+                    </div>
+                </div>
+
+                <div class="column-right">
+                    <div id="skills">
+                        <ul>
+                            <li>C++</li>
+                            <li>JavaScript</li>
+                            <li>HTML<li>
+                            <li>CSS</li>
+                            <li>Sass</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- section_teams -->
+    <section class="teams" id="teams">
+        <div class="main-container">
+            <h4 class="title">My teams</h4>
+            <div class="carousel">
+                <div class="card">
+                    <div class="box">
+                        <img src="images/pngtree-vector-working-on-laptop-icon-png-image_924859.jpg" alt="">
+                        <div class="text">Someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/pngtree-vector-working-on-laptop-icon-png-image_924859.jpg" alt="">
+                        <div class="text">Someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/pngtree-vector-working-on-laptop-icon-png-image_924859.jpg" alt="">
+                        <div class="text">Someone name</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- section_s4 -->
+    <section class="s4" id="s4">
+        <div class="main-container">
+            <h5>some of my recent works</h5>
+            <h4 class="title">projects</h4>
+
+            <div class="post-wrapper">
+                <div>
+					<div class="post">
+						<img class="thumbnail" src="images/palindrome.png">
+						<div class="post-preview">
+							<h6 class="post-title">Palindrome Checker</h6>
+							<p class="post-intro">A palindrome is a word, number, phrase, or other sequence of characters which reads the same backward as forward, such as eye or racecar.</p>
+							<a href="https://mukhran91.github.io/Palindrome_Checker/">Read More</a>
+						</div>
+					</div>
+				</div>
+                <div>
+                    <div class="post">
+						<img class="thumbnail" src="images/order-card.png">
+						<div class="post-preview">
+							<h6 class="post-title">order-summary-card</h6>
+							<p class="post-intro">Frontend-Mentor-Challenge</p>
+							<a href="https://mukhran91.github.io/Frontend-Mentor-Challenges/order-summary/">Read More</a>
+						</div>
+                </div>
+            </div>
+
+            <div>
+                <div class="post">
+                    <img class="thumbnail" src="images/social-proof-section.png">
+                    <div class="post-preview">
+                        <h6 class="post-title">Social-Proof-Section</h6>
+                        <p class="post-intro">Frontend-Mentor-Challenge</p>
+                        <a href="https://mukhran91.github.io/Frontend-Mentor-Challenges/social-proof-section/">Read More</a>
+                    </div>
+                </div>
+            </div>  
+            <div class="button">
+                <a href="projects.html" target="_parent" >View More</a>
+            </div>
+        </div>
+        </div>
+    </section>
+   
+    <!-- section_contact -->
+    <section class="contact" id="contact">
+        <div class="about">
+            <h5>get in touch</h5>
+            <h4 class="title">Contact me</h4>
+            <div class="contact-content">
+                <div class="c-left">
+                    <div class="row">
+                        <div class="icon">
+                            <i class="fas fa-phone-square-alt"></i>
+                        </div>
+                        <div class="info">
+                            <p>+995 568 44 57 37</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="icon">
+                            <i class="fas fa-envelope-square"></i>
+                        </div>
+                        <div class="info">
+                            <p>mukhran91@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info">
+                            <p>batumi, georgia</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/Mukhran91"><i class="fab fa-github"></i></a>
+                        <a href="https://twitter.com/MukhranKakhadze"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/mukho_kakhadze18/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/muxo.kakhadze/"><i class="fab fa-facebook"></i></a>
+                        
+                    </div>
+                </div>
+                <div class="c-right">
+                    <form action="#">
+                        <div class="field">
+                            <input type="text" placeholder="Name" required>
+                        </div>
+                        <div class="field">
+                            <input type="email" placeholder="Email" required >
+                        </div>
+                        <div class="field">
+                            <textarea name="message" cols="30" rows="10" placeholder="Message.." required spellcheck="false"></textarea>
+                            <button type="submit">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section> 
+    
+    <!-- footer -->
+    <footer>
+        <span>
+            Created By
+            <a href="#">Mukhran Kakhadze</a>
+            |
+            <span class="far fa-copyright"></span>
+            2021 All rights reserved.
+        </span>
+    </footer>
+
+    <!-- script -->
+    <script src="script.js"></script>
+
+</body>
+</html>
