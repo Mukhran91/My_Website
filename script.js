@@ -23,7 +23,7 @@ var typed = new Typed(".typing", {
 });
 
 var typed = new Typed(".typ-2", {
-  strings: ["Developer", "Freelancer"],
+  strings: ["Back-end Developer", "Freelancer"],
   typeSpeed: 100,
   backSpeed: 60,
   loop: true
