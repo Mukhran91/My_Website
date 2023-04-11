@@ -231,14 +231,14 @@
                 <div class="c-right">
                     <form action="#">
                         <div class="field">
-                            <input type="text" placeholder="Name" required>
+                            <input type="text" id="fullName" placeholder="Name" required>
                         </div>
                         <div class="field">
-                            <input type="email" placeholder="Email" required >
+                            <input type="email" id="email_id" placeholder="Email" required >
                         </div>
                         <div class="field">
-                            <textarea name="message" cols="30" rows="10" placeholder="Message.." required spellcheck="false"></textarea>
-                            <button type="submit">Send</button>
+                            <textarea id="Message" name="message" cols="30" rows="10" placeholder="Message.." required spellcheck="false"></textarea>
+                            <button onclick="SendMail()" type="submit">Send</button>
                         </div>
                     </form>
                 </div>
